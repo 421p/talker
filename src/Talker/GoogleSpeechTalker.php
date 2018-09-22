@@ -47,7 +47,7 @@ class GoogleSpeechTalker implements TalkerInterface
 
         $promises = [];
 
-        foreach (explode('\n', wordwrap($text, 100)) as $chunk) {
+        foreach (explode(PHP_EOL, wordwrap($text, 100)) as $chunk) {
             $promises[] = $this->doRequest($chunk, $locale);
         }
 
