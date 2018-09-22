@@ -1,0 +1,23 @@
+{
+    "name": "421p/talker",
+    "description": "PHP Text to speech",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrii Bakal",
+            "email": "andrew.bakal@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Talker\\": "src"
+        }
+    },
+    "require": {
+        "react/http-client": "^0.5.9"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.1"
+    }
+}
