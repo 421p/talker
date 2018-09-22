@@ -1,5 +1,6 @@
 {
     "name": "421p/talker",
+    "version"    : "0.0.1",
     "description": "PHP Text to speech",
     "type": "project",
     "license": "MIT",

@@ -4,7 +4,7 @@
 namespace Talker\Talker\Response;
 
 
-class Mp3File
+interface Mp3File extends AudioFile
 {
 
 }
