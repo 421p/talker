@@ -4,7 +4,7 @@
 namespace Talker\Talker\Response;
 
 
-class AudioFile
+interface AudioFile
 {
-
+    public function getContent(): string;
 }

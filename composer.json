@@ -1,7 +1,9 @@
 {
     "name": "421p/talker",
+    "version"    : "1.0.0",
     "description": "PHP Text to speech",
-    "type": "project",
+    "type": "library",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -15,6 +17,7 @@
         }
     },
     "require": {
+        "php": ">=7.1",
         "react/http-client": "^0.5.9"
     },
     "require-dev": {
