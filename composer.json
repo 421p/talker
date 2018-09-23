@@ -1,8 +1,8 @@
 {
     "name": "421p/talker",
-    "version"    : "0.0.1",
+    "version"    : "0.0.2",
     "description": "PHP Text to speech",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
